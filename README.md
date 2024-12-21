@@ -19,6 +19,8 @@ install npm
 
 npm create vite@latest personal_website
 
-  cd personal_website
-  npm install
-  npm run dev
+cd personal_website
+
+npm install
+
+npm run dev
