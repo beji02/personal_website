@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'basic_api',
     'corsheaders',
+    'cv_pdf'
 ]
 
 MIDDLEWARE = [
@@ -128,3 +129,4 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOW_ALL_ORIGINS = True
+X_FRAME_OPTIONS = 'ALLOWALL'
