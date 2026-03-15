@@ -10,6 +10,7 @@ function NavigationBar() {
 
   const openPortfolioPage = () => navigate('/portfolio');
   const openBlogPage = () => navigate('/blog');
+  const openAboutPage = () => navigate('/about');
 
   return (
     <AppBar position="sticky">
@@ -29,6 +30,13 @@ function NavigationBar() {
               sx={{ my: 2, color: 'white', display: 'block' }}
             >
               Blog
+            </Button>
+            <Button
+              key='About'
+              onClick={openAboutPage}
+              sx={{ my: 2, color: 'white', display: 'block' }}
+            >
+              About
             </Button>
           </Box>
         </Toolbar>

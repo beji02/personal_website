@@ -4,7 +4,7 @@ import { Navigate } from "react-router";
 import PortFolioPage from './portfolio/PortfolioPage'
 import PageLayout from './PageLayout'
 import BlogPage from './blog/BlogPage'
-
+import AboutPage from './about/AboutPage'
 
 function App() {
   // let navigate = useNavigate();
@@ -26,6 +26,7 @@ function App() {
             <Route index element={<Navigate to="portfolio" />} />
             <Route path="portfolio" element={<PortFolioPage />} />
             <Route path="blog" element={<BlogPage />} />
+            <Route path="about" element={<AboutPage />} />
           </Route>
         </Routes>
       </BrowserRouter>
